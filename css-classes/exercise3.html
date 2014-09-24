@@ -10,13 +10,16 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style type="text/css">
-        	.wrapper {
-        		margin:auto;
+        	div {
+            }
+            .wrapper {
+        		margin: 0px auto;
         	}
         	.header {
         		background-color: #f9b26b;
         		height: 50px;
         		width: 1000px;
+                float:left;
         	}
         	.main {
         		background-color: #76d0f2;
@@ -50,17 +53,17 @@
         		float:left;
         	}
         	p {
-        		color: white;
-        		margin-left: 35px;
-        	}
-        	#subWidget {
         		color: black;
+        		/*margin-left: 35px;*/
+                padding: 0px 10px;
+                font-size: 12px;
         	}
         	.subWidget {
-        		height: 30px;
-        		width:80px;
+        		height:30px;
+        		width:100px;
         		background-color: white;
-        		margin-left: 35px;
+                float:left;
+                margin:20px;
         	}
         </style>
 
@@ -72,7 +75,7 @@
     		<div class="main">
 	    		<div class="widget"><p>widget</p></div>
 	    		<div class="widget"><p>widget</p>
-	    			<div class="subWidget"><p id="subWidget">subwidget</p></div>
+	    			<div class="subWidget"><p>subwidget</p></div>
 	    		</div>
 	    		<div class="widget blue"><p>Widget Blue</p></div>
 	    		<div class="gadget"><p>gadget</p></div>

@@ -40,3 +40,7 @@
 .footer {
 	clear: both;
 }
+
+div {
+	border:black;
+}

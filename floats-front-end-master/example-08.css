@@ -10,14 +10,33 @@
 	margin: 0 auto;
 }
 
-.header {}
+.header:after {
+	clear:both;
+	display: block;
+	visibility: hidden;
+	content: "";
+}
 
 
-.sidebar {}
+.sidebar {
+	float:left;
+	height: 400px;
+	width: 328px;
+}
 
-.main-content {}
+.main-content {
+	float:left;
+	height: 400px;
+	width: 328px;
+}
 
-.sub-content {}
+.sub-content {
+	float:left;
+	height: 400px;
+	width: 328px;
+}
 
 
-.footer {}
+.footer {
+	clear: both;
+}

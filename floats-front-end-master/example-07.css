@@ -11,18 +11,45 @@
 }
 
 
-.header {}
+.header:after {
+	content: "";
+	clear:both;
+	display:block;
+	visibility: hidden;
+}
 
-.logo {}
+.logo {
+	float:left;
+	width: 250px;
+}
 
-.navigation {}
+.navigation {
+	float:left;
+	width: 694px;
+}
 
-.sidebar {}
+.sidebar {
+	float:left;
+	height:200px;
+}
 
-.main-content {}
+.main-content:after {
+	content: "";
+	clear:both;
+	display:block;
+	visibility: hidden;
+}
 
-.sub-content {}
+.sub-content {
+	float:right;
+	height: 100px;
+	width: 830px;
+}
 
-.sub-content-2 {}
+.sub-content-2 {
+	float:right;
+	height: 100px;
+	width: 830px;
+}
 
 .footer {}

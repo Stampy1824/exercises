@@ -21,11 +21,13 @@
 .logo {
 	float:left;
 	border: 1px solid black;
+	width: 250px;
 }
 
 .navigation {
 	float: left;
 	border: 1px solid black;
+	width: 664px;
 }
 
 
@@ -46,14 +48,16 @@
 	border: 1px solid black;
 }
 .sub-content {
-	clear:right;
+	float: right;
 	height: 100px;
 	border: 1px solid black;
+	width: 826px;
 }
 .sub-content-2 {
-	clear: right;
+	float: right;
 	height: 100px;
 	border: 1px solid black;
+	width: 826px;
 }
 
 .footer {

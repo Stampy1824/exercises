@@ -48,6 +48,10 @@
 	text-transform: none;
 	font-family: "PlutoSansRegular";
 }
+.check {
+	float: right;
+	padding: 10px;
+}
 
 	/* Note about the date, e.g. "that's today!" or "overdue" */
 	.date-note {
@@ -94,6 +98,7 @@ input[type=checkbox] {}
 /* Override other float exercise styles */
 div {
 	padding: 0;
+	
 }
 
 body {

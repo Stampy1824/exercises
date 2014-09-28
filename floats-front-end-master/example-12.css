@@ -38,33 +38,51 @@
 .icon {
 	float:left;
 	border: 1px solid blue;
+	margin-left: 2%;
+	margin-top: 2%;
 }
 
 /* Info of the todo, title and date */
 .todo-info {
 	border: 1px solid blue;
+	float:left;
+	margin-top:4%;
+	margin-left: 2%;
+	width: 75%;
+}
+.todo-info:after {
+	display: block;
+	content: "";
+	visibility: hidden;
+	clear: both;
 }
 
 /* Title */
 .todo-title {
 	float:left;
 	border: 1px solid blue;
-	font-family: Helvetica;
-	font-size: 18px;
-	padding-top: 20px;
+	font-size: 28px;
+	display: block;
+	width: 100%;
 }
 
 /* Date */
 .todo-date {
 	border: 1px solid blue;
-	float:left;
 	display: block;
 }
 .date-note {
 	border: 1px solid blue;
+
 }
 
 /* Checkboxes! */
-input[type=checkbox] {
+.check {
 	border: 1px solid blue;
+	margin-top: 5%;
+	margin-left: 5%;
+	float:left;
+}
+input[type=checkbox] {
+	float:left;
 }

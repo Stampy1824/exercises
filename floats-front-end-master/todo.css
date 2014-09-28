@@ -38,13 +38,14 @@
 	line-height: 1.5em;
 	font-weight: normal;
 	font-family: "PlutoSansExtraLight";
+	color: gray;
 }
 
 /* Date */
 .todo-date {
 	color: #bbb;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 18px;
 	text-transform: none;
 	font-family: "PlutoSansRegular";
 }
@@ -98,7 +99,7 @@ input[type=checkbox] {}
 /* Override other float exercise styles */
 div {
 	padding: 0;
-	
+
 }
 
 body {

@@ -7,9 +7,31 @@
 
 .header {}
 
-.sidebar {}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after {
+	clear: both;
+	visibility: hidden;
+	content: "";
+	display: block;
+}
 
-.main-content {}
+.sidebar {
+	width: 30%;
+	height: 400px;
+	float: left;
+}
+
+.main-content {
+	width: 70%;
+	height: 400px;
+	float: left;
+}
+/*div {
+	border: 1px solid black;
+}*/
 
 .sub-content {}
 

@@ -1,4 +1,4 @@
- /* ---------------------------------------------------------- */
+/* ---------------------------------------------------------- */
 /* Float Examples for MakerSquare Front-End Class ----------- */
 /* created by Elyse Holladay @elyseholladay ----------------- */
 /* ---------------------------------------------------------- */
@@ -55,7 +55,7 @@
 
 /* Title */
 .todo-title {
-	/*float:left;*/
+	float:left;
 	border: 1px solid blue;
 	font-size: 28px;
 	display: block;
